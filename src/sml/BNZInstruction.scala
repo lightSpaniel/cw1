@@ -26,7 +26,7 @@ class BNZInstruction(label: String, opcode: String, register: Int, value: String
   }
 
 }
-//Starts companion class
+//Starts companion class BNZINSTRUCTION
 object BNZInstruction{
   def apply(label: String,  register: Int, value: String) =
     new BNZInstruction(label, "bnz", register, value)
